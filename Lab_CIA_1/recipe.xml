@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+  <title>Delicious Recipes</title>
+  <description>A recipe sharing website where users can share and discover new recipes.</description>
+  <technologies>
+    <technology>HTML</technology>
+    <technology>CSS</technology>
+    <technology>JavaScript</technology>
+    
+  </technologies>
+  <features>
+    <feature>Recipe Search</feature>
+    <feature>Veg Recipe</feature>
+    <feature>Non-Veg Recipe</feature>
+    <feature>Image Gallery</feature>
+  </features>
+  <social_media>
+    <platform>Facebook</platform>
+    <platform>Instagram</platform>
+    <platform>Twitter</platform>
+  </social_media>
+</recipe>

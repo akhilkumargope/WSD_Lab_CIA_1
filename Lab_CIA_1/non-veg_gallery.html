@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinary Delights</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Cook with AK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Receipe Gallery
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="veg_gallery.html">Veg</a>
+                      <a class="dropdown-item" href="non-veg_gallery.html">Non-Veg</a>
+                      
+                    </div>
+                  </li><li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                
+                
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="h6_veg">Non-Veg Recipies</div>
+
+    <!-- Image gallery -->
+ <!-- Image Gallery -->
+<div class="container veg">
+    <div class="row flex-wrap justify-content-center">
+      <div class="col-md-4 col-sm-6 mb-4">
+        <a href="#" data-toggle="modal" data-target="#project1Modal">
+          <img src="butter-chicken-.jpg" alt="Project 1" class="img-fluid">
+        </a>
+        <p>Butter Chicken</p>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <a href="#" data-toggle="modal" data-target="#project2Modal">
+          <img src="reshmi.jpeg" alt="Project 2" class="img-fluid">
+        </a>
+        <p>Chicken reshmi kebab</p>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <a href="#" data-toggle="modal" data-target="#project3Modal">
+          <img src="burger.jpeg" alt="Project 3" class="img-fluid">
+        </a>
+        <p>Chicken piri piri burger</p>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- Modals -->
+  <div class="modal fade" id="project1Modal" tabindex="-1" role="dialog" aria-labelledby="project1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project1ModalLabel">Project 1: Recipe Book</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="butter-chicken-.jpg" alt="Project 1" class="img-fluid">
+          <p>This project is a recipe book that showcases a collection of delicious recipes from around the world.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="project2Modal" tabindex="-1" role="dialog" aria-labelledby="project2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project2ModalLabel">Project 2: Food Blog</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="reshmi.jpeg" alt="Project 2" class="img-fluid">
+          <p>This project is a food blog that features recipes, cooking tips, and restaurant reviews.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="modal fade" id="project3Modal" tabindex="-1" role="dialog" aria-labelledby="project2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project2ModalLabel">Project 3: Food Blog</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="burger.jpeg" alt="Project 4" class="img-fluid" height="300">
+          <p>This project is a food blog that features recipes, cooking tips, and restaurant reviews.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+      
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2024 Cook with Ak. All rights reserved.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
